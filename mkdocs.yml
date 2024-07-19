@@ -1,3 +1,21 @@
-site_name: My Docs
+site_name: Wowu Blog
+nav:
+    - Home: index.md
+    - About:
+          - nav/about.md
 theme:
     name: simple-blog
+    theme_style: light
+    site_name_style: normal
+    title_style: bold
+    colors:
+        text: black
+        title: black
+        primary: black
+        background: white
+    components:
+        site_name: true
+        title: true
+        menu: true
+        preview: true
+        footer: true
