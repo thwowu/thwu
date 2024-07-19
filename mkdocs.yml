@@ -1,8 +1,9 @@
 site_name: Wowu Blog
+
 nav:
     - Home: index.md
-    - About:
-          - nav/about.md
+    - About: nav/about.md
+
 theme:
     name: simple-blog
     theme_style: light
